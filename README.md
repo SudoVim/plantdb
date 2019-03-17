@@ -17,6 +17,8 @@ The `plants` collection contains information about specific plants. It looks lik
 ```
 {
   "name": "<plant_name>",
+  "latin": "<latin_name>",
+  "category": "<category>",
   "description": "<plant_description>",
   "tags": [
     "tag_1",
