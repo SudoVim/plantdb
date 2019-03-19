@@ -1,3 +1,6 @@
 [submodule "ingress"]
 	path = ingress
 	url = git@github.com:SudoVim/plantdb-ingress.git
+[submodule "backend"]
+	path = backend
+	url = git@github.com:SudoVim/plantdb-backend.git
