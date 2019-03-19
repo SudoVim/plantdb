@@ -33,6 +33,7 @@ The `plants` collection contains information about specific plants. It looks lik
   "tags": [
     "tag_1",
     "tag_2"
-  ]
+  ],
+  "image": "<image_url>"
 }
 ```
