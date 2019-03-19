@@ -16,6 +16,12 @@ def main(argv):
     args = parser.parse_args(argv)
 
     client = pymongo.MongoClient()
+    client.plantdb.categories.create_index(
+        [
+            ("name", pymongo.ASCENDING),
+        ],
+        unique=True,
+    )
     client.plantdb.plants.create_index(
         [
             ("name", pymongo.ASCENDING),
